@@ -10,6 +10,11 @@ body { margin: 0; min-width: 320px; min-height: 100vh; background: #fbf5ea; }
 button, input { font: inherit; }
 ::selection { background: #ffddd8; color: #a9231a; }
 
+/* 暗黑模式全局基础 */
+.dark { color: #f3e6d0; background: #1a1816; }
+.dark body { background: #1a1816; }
+.dark ::selection { background: rgba(243, 230, 208, 0.25); color: #f3e6d0; }
+
 /* 老人模式全局基础：放大字号约 1.25 倍 */
 .elderly { font-size: 125%; }
 

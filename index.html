@@ -15,6 +15,14 @@
         } catch (e) {
           // localStorage 不可用时保持默认中文
         }
+        // 同步设置初始暗黑模式 class，避免主题闪烁（FOUC）
+        try {
+          if (localStorage.getItem('dark-mode') === 'true') {
+            document.documentElement.classList.add('dark');
+          }
+        } catch (e) {
+          // localStorage 不可用时保持默认浅色
+        }
       })();
     </script>
   </head>
