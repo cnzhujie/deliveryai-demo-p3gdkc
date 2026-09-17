@@ -87,7 +87,7 @@ export default function App() {
   }
 
   if (state.view === 'home' || !state.table) {
-    return <HomeView onBind={(table) => dispatch({ type: 'BIND_TABLE', table })} />
+    return <HomeView soldOut={state.soldOut} onBind={(table) => dispatch({ type: 'BIND_TABLE', table })} />
   }
 
   if (state.view === 'welcome') {
