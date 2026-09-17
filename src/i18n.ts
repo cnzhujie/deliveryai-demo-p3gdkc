@@ -44,6 +44,12 @@ const resources = {
         welcome_message: '欢迎进入概念演示',
         unknown_area: '',
       },
+      home: {
+        recommended_title: '今日推荐',
+        order_now: '去点餐',
+        no_recommendations: '暂无推荐',
+        select_table_hint: '请先选择桌台',
+      },
       bind: {
         title_l1: '热气升腾，',
         title_l2: '好味即刻开场。',
@@ -281,6 +287,12 @@ const resources = {
         preview_message: 'Preview mode · Table A08 bound',
         welcome_message: 'Welcome to the concept demo',
         unknown_area: '',
+      },
+      home: {
+        recommended_title: "Today's Picks",
+        order_now: 'Order Now',
+        no_recommendations: 'No recommendations',
+        select_table_hint: 'Please select a table first',
       },
       bind: {
         title_l1: 'Steam rising,',
